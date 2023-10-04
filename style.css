@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  line-height: 1.6;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  color: #fff;
+  width: 1300px;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("luxury-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: #ff0000;
+  font-size: large;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px green;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.hero-text h1::selection {
+  color: yellow;
+  background-color: #111;
+}
+.hero-text p::selection {
+  color: yellow;
+  background-color: #111;
+}
+.img1 {
+  width: 1000px;
+  height: 400px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.748),
+    rgba(0, 128, 0, 0.802)
+  );
+  color: #111;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 8px 10px 20px black;
+  border-radius: 50px;
+  transition: background-color 0.5s;
+}
+
+.cta-button:hover {
+  background-color: red;
+}
+
+/* About section styles */
+.about-us {
+  background-color: #fff;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  flex: 1;
+  text-align: left;
+  padding: 0 50px;
+}
+.about-content h2 {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  text-shadow: 8px 8px 10px rgb(255, 0, 0);
+}
+.about-content p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.about-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.img2 {
+  width: 700px;
+  height: 380px;
+  border-radius: 1px;
+  box-shadow: 12px 12px 20px black;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services {
+  background-size: cover;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(255, 241, 241);
+  box-shadow: 5px 5px 20px black;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-20px);
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+}
+.img4 {
+  width: 620px;
+}
+
+.img5 {
+  width: 620px;
+}
+
+.service-card p {
+  color: #333;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: red;
+  box-shadow: 7px 1px 20px #ff0000;
+}
+
+.img3 {
+  height: inherit;
+  width: 600px;
+}
+
+.contact {
+  padding: 60px 0;
+  background-color: #111;
+  /* color: #fff; */
+  text-align: center;
+}
+
+.contact h2 {
+  margin-left: 25%;
+  width: 650px;
+  border-radius: 5px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 50%;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #00ff0d;
+  color: #ff0000;
+  border: none;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 800;
+  padding: 15px 40px;
+  font-size: 24px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+}
